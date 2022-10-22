@@ -24,6 +24,7 @@ public class HomeWorkGetterSetter {
         System.out.println("Car2:");
         System.out.println(sergejCar.getNumber());
     }
+    @Test
     public void workingWithDog() {
         Dog myDog = new Dog();
 
@@ -42,6 +43,7 @@ public class HomeWorkGetterSetter {
         System.out.println("Dog2:");
         System.out.println(daughtersDog.getColour());
     }
+    @Test
     public void workingWithFlat() {
         Flat myFlat = new Flat();
 
@@ -59,6 +61,7 @@ public class HomeWorkGetterSetter {
         System.out.println("Flat2:");
         System.out.println(mothersFlat.getNumberOfRooms());
     }
+    @Test
     public void workingWithFridge() {
         Fridge myFridge = new Fridge();
 
@@ -76,6 +79,7 @@ public class HomeWorkGetterSetter {
         System.out.println("Fridge2:");
         System.out.println(neighboursFridge.getHeight());
     }
+    @Test
     public void workingWithHouse() {
         House myHouse = new House();
 
@@ -93,6 +97,7 @@ public class HomeWorkGetterSetter {
         System.out.println("House2:");
         System.out.println(friendsHouse.getYear());
     }
+   @Test
     public void workingWithHusband() {
         Husband myHusband = new Husband();
 
@@ -110,6 +115,7 @@ public class HomeWorkGetterSetter {
         System.out.println("Husband2:");
         System.out.println(secondHusband.getEyeColour());
     }
+    @Test
     public void workingWithKettle() {
         Kettle myKettle = new Kettle();
 
@@ -127,6 +133,7 @@ public class HomeWorkGetterSetter {
         System.out.println("Kettle2:");
         System.out.println(firstKettle.getBrand());
     }
+    @Test
     public void workingWithKitchen() {
         Kitchen myKitchen = new Kitchen();
 
@@ -144,6 +151,7 @@ public class HomeWorkGetterSetter {
         System.out.println("Kitchen2:");
         System.out.println(secondKitchen.getSquare());
     }
+    @Test
     public void workingWithOrange() {
         Orange myOrange = new Orange();
 
@@ -161,6 +169,7 @@ public class HomeWorkGetterSetter {
         System.out.println("Orange2:");
         System.out.println(newOrange.getCountry());
     }
+    @Test
     public void workingWithWardrobe() {
         Wardrobe myWardrobe = new Wardrobe();
 
