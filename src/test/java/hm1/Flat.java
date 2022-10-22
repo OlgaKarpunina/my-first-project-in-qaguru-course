@@ -5,7 +5,7 @@ public class Flat {
     private Integer floor;
     private String comfort;
     private String communalPayments;
-    private Float price;
+    private double price;
 
     public Integer getNumberOfRooms() {
         return numberOfRooms;

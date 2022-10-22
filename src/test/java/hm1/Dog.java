@@ -1,18 +1,18 @@
 package hm1;
 
 public class Dog {
-    private float weight;
+    private double weight;
     private String colour;
     private String character;
-    private float growth;
+    private double growth;
     private String species;
     private Integer age;
 
-    public float getWeight() {
+    public double getWeight() {
         return weight;
     }
 
-    public void setWeight(float weight) {
+    public void setWeight(double weight) {
         this.weight = weight;
     }
 

@@ -1,18 +1,18 @@
 package hm1;
 
 public class Kitchen {
-    private Float square;
+    private Double square;
     private String functionality;
     private Integer numberOfHouseholdAppliances;
     private String floorCovering;
     private String window;
 
 
-    public Float getSquare() {
+    public Double getSquare() {
         return square;
     }
 
-    public void setSquare(Float square) {
+    public void setSquare(Double square) {
         this.square = square;
     }
 

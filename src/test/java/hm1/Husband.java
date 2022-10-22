@@ -5,7 +5,7 @@ public class Husband {
     private String eyeColour;
     private String hairColour;
     private String senseOfHumor;
-    private float growth;
+    private double growth;
 
 
     public Integer getYear() {

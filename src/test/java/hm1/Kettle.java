@@ -2,10 +2,10 @@ package hm1;
 
 public class Kettle {
     private String brand;
-    private Float volume;
+    private Double volume;
     private String colour;
     private String type;
-    private Float price;
+    private Double price;
     private String power;
 
 
@@ -17,11 +17,11 @@ public class Kettle {
         this.brand = brand;
     }
 
-    public Float getVolume() {
+    public Double getVolume() {
         return volume;
     }
 
-    public void setVolume(Float volume) {
+    public void setVolume(Double volume) {
         this.volume = volume;
     }
 }

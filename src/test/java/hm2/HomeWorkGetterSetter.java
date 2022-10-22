@@ -63,12 +63,12 @@ public class HomeWorkGetterSetter {
         Fridge myFridge = new Fridge();
 
         myFridge.setHeight(2.30);
-        myFridge.setWidth(60);
+        myFridge.setWidth(60.0);
 
         Fridge neighboursFridge = new Fridge();
 
         neighboursFridge.setHeight(1.50);
-        neighboursFridge.setWidth(43);
+        neighboursFridge.setWidth(43.0);
 
         System.out.println("Fridge:");
         System.out.println(myFridge.getHeight());
@@ -119,7 +119,7 @@ public class HomeWorkGetterSetter {
         Kettle firstKettle = new Kettle();
 
         firstKettle.setBrand("Samsung");
-        firstKettle.setVolume(1);
+        firstKettle.setVolume(1.0);
 
         System.out.println("Kettle:");
         System.out.println(myKettle.getBrand());
@@ -135,7 +135,7 @@ public class HomeWorkGetterSetter {
 
         Kitchen secondKitchen = new Kitchen();
 
-        secondKitchen.setSquare(18);
+        secondKitchen.setSquare(18.0);
         secondKitchen.setFunctionality("bad functionality");
 
         System.out.println("Kitchen:");
@@ -164,13 +164,13 @@ public class HomeWorkGetterSetter {
     public void workingWithWardrobe() {
         Wardrobe myWardrobe = new Wardrobe();
 
-        myWardrobe.getSize("2.50m x 3m x 1m");
-        myWardrobe.getMaterial("wood");
+        myWardrobe.setSize("2.50m x 3m x 1m");
+        myWardrobe.setMaterial("Wood");
 
         Wardrobe newWardrobe = new Wardrobe();
 
-        newWardrobe.getSize("2.00m x 1.00m x 0.60m");
-        newWardrobe.getMaterial("plastic");
+        newWardrobe.setSize("2.00m x 1.00m x 0.60m");
+        newWardrobe.setMaterial("plastic");
 
         System.out.println("Wardrobe:");
         System.out.println(myWardrobe.getSize());

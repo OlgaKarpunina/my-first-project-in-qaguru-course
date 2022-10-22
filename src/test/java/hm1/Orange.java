@@ -2,7 +2,7 @@ package hm1;
 
 public class Orange {
     private String country;
-    private Float price;
+    private Double price;
     private String taste;
     private String size;
     private String colour;
@@ -16,11 +16,11 @@ public class Orange {
         this.country = country;
     }
 
-    public Float getPrice() {
+    public Double getPrice() {
         return price;
     }
 
-    public void setPrice(Float price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 }
