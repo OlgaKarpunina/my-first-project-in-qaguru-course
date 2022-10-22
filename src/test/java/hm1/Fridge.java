@@ -8,4 +8,20 @@ public class Fridge {
     private Integer numberOfShelves;
     private Float price;
 
+
+    public Float getHeight() {
+        return height;
+    }
+
+    public void setHeight(Float height) {
+        this.height = height;
+    }
+
+    public Float getWidth() {
+        return width;
+    }
+
+    public void setWidth(Float width) {
+        this.width = width;
+    }
 }

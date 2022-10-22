@@ -9,7 +9,19 @@ public class Kettle {
     private String power;
 
 
+    public String getBrand() {
+        return brand;
+    }
 
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
 
+    public Float getVolume() {
+        return volume;
+    }
 
+    public void setVolume(Float volume) {
+        this.volume = volume;
+    }
 }

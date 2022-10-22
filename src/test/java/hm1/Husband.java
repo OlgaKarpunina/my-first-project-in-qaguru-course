@@ -8,8 +8,19 @@ public class Husband {
     private float growth;
 
 
+    public Integer getYear() {
+        return year;
+    }
 
+    public void setYear(Integer year) {
+        this.year = year;
+    }
 
+    public String getEyeColour() {
+        return eyeColour;
+    }
 
-
+    public void setEyeColour(String eyeColour) {
+        this.eyeColour = eyeColour;
+    }
 }

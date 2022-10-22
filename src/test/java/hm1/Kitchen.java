@@ -8,6 +8,19 @@ public class Kitchen {
     private String window;
 
 
+    public Float getSquare() {
+        return square;
+    }
 
+    public void setSquare(Float square) {
+        this.square = square;
+    }
 
+    public String getFunctionality() {
+        return functionality;
+    }
+
+    public void setFunctionality(String functionality) {
+        this.functionality = functionality;
+    }
 }
